@@ -1,0 +1,164 @@
+/* #012C40  Dark BLue
+   #1CA5B8  Turquoise
+   #DAEBF2  Grey
+   #FF404C   Red
+*/
+
+body{
+  background: #DAEBF2;
+}
+
+.wrapper{
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.boring-heading{
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #012C40;
+}
+.boring-strapline{
+  font-family: sans-serif;
+  font-style: italic;
+  color: #012C40;
+  margin-bottom: 40px;
+}
+
+.boring-button{
+  display: inline-block;
+  border-radius: 10px;
+  background: #1CA5B8;
+  color: #ffffff;
+  padding: 15px;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.boring-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.boring-list li{
+  font-family: sans-serif;
+  list-style: none;
+  border-bottom: 1px solid #ffffff;
+
+}
+
+.day-of-week{
+  width: 35px;
+  display: inline-block;
+  border-right: 1px solid #ffffff;
+  background: #FF404C;
+  color: #DAEBF2;
+  padding: 10px;
+}
+
+.day-of-month{
+  width: 100px;
+  display: inline-block;
+  border-right: 1px solid #DAEBF2;
+  background: #1CA5B8;
+  color: #DAEBF2;
+  padding: 10px;
+}
+
+.head .day-of-week,
+.head .day-of-month,
+.head .morning,
+.head .afternoon{
+  background: #FF404C;
+  color: #ffffff;
+}
+
+.odd{
+  background: #1CA5B8;
+}
+
+.odd.Sat{
+  background: #012C40;
+  border-bottom: 1px solid #ffffff;
+  color: #DAEBF2;
+}
+.odd.Sun{
+  background: #012C40;
+  border-bottom: 1px solid #ffffff;
+  color: #DAEBF2;
+}
+
+.odd.Sat .morning, .even.Sat .morning,
+.odd.Sun .morning, .even.Sun .morning{
+  border-right: 1px solid #ffffff;
+}
+
+
+.even.Sat{
+  background: #012C40;
+  border-bottom: 1px solid #ffffff;
+  color: #DAEBF2;
+}
+.even.Sun{
+  background: #012C40;
+  border-bottom: 1px solid #ffffff;
+  color: #DAEBF2;
+}
+/*-------------*/
+.odd.Sat .day-of-week{
+  background: #012C40;
+}
+
+.odd.Sun .day-of-week{
+  background: #012C40;
+}
+
+.even.Sat .day-of-week{
+  background: #012C40;
+}
+.even.Sun .day-of-week{
+  background: #012C40;
+}
+
+/*-------------*/
+.odd.Sat .day-of-month{
+  background: #012C40;
+}
+
+.odd.Sun .day-of-month{
+  background: #012C40;
+}
+
+.even.Sat .day-of-month{
+  background: #012C40;
+}
+.even.Sun .day-of-month{
+  background: #012C40;
+}
+
+
+.morning, .afternoon {
+  width: 35%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.morning{
+  border-right: 1px solid #ffffff;
+}
+
+.fruit-list li{
+  padding: 10px;
+}
+.fruit-heading{
+  background: #FF404C;
+  color: #ffffff;
+}
