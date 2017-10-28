@@ -109,6 +109,7 @@ var outdoor_activities = [
 	"Roller ball painting",
 	"Homemade sprinkler",
 	"Pouring station",
+	"Look for minibeasts",
 ];
 
 // TODO
